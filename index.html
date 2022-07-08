@@ -3,75 +3,107 @@
 <head>
     <meta charset="UTF-8">
     <title>my page</title>
+    <link rel="stylesheet" href="styles.css"
+    rel="stylesheet" />
 </head>
 <body>
-    <table cellspacing="15">
-        <tr>
-            <td><img src="logo 5.png" width="85" alt="logo html "/></td>
-            <td>    <h1>My HTML page</h1>
-                <p>its my first page of html</p>
-                <p><em> html page , <strong>yes</strong></em></p></td>
-        </tr>
-    </table>
-    <hr>
+        <div class="container">
+        <div class="info">
+            <img src="logo5.png" alt="logo html" class="logos" /> 
 
-    <h2>My social links</h2>
-    <ol reversed>
-        <li><a href="https://twitter.com/?lang=ru" target="_blank" >Twitter</a></li>
-        <li><a href="https://Facebook.com/?lang=ru" target="_blank" >Facebook</a></li>
-        <li><a href="https://Instagram.com/?lang=ru" target="_blank" >Instagram</a></li>
+            <div class="info-text">
+                <h1>5 HTML </h1>
+                <p>its my first page of html | its my first page of html</p>
+                <p>html page , yes</p>
 
-    </ol>
-<hr>
-    <h2>Список моих сайтов</h2>
-    <table border="2">
-        <tr>
-            <th>Комнпания</th>
-            <th>Должность</th>
-            <th>Год</th>
-        </tr>
-        <tr>
-            <td>Mobile</td>
-            <td>Apple</td>
-            <td>2022</td>
-        </tr>
-        <tr>
-            <td>Software Outsorcing Services</td>
-            <td>Backend</td>
-            <td>2022</td>
-        </tr>
-    </table>
-<hr>
-    <h2>HTML курсы</h2>
-    <a href="KURS.html">Посмотреть список</a>
-    <hr>
-    <h2>My chanels</h2>
-    <ul type="circle">
-        <li>Facebook</li>
-        <li>Telegram chanel </li>
-        <li>Telegram PRO</li>
-    </ul>
-    <hr>
-<h2>Контактная информация</h2>
-
-<form action="/"
-    <label for="name">Ваше имя:</label>
-    <input type="text" id="name"
-    placeholder="Введите текст" >
+                <h4>My social links</h4>
+                <a href="https://twitter.com/?lang=ru" target="_blank" >Twitter</a>
+                |
+                <a href="https://Facebook.com/?lang=ru" target="_blank" >Facebook</a>
+                |
+                <a href="https://Instagram.com/?lang=ru" target="_blank" >Instagram</a>
+            </div>
     
-    <br>
 
-    <label for="email">Ваш email:</label>
-    <input type="email" id="name"
-    placeholder="Введите email" >
-    <br>
-  
-    <label for="text">Ваше сообщение:</label>
-    <textarea id="text" rows="2" cols="25"></textarea>
-    <br>
+        </div>
 
-    <input type="submit" value="Отправить даннные"
- 
-</form>
+    <div class="card bg-yellow">
+        
+            <h2>Список моих работ</h2>
+            <table class="table">
+                <tr>
+                    <td>Mobile Software developer</td>
+                    <td>Apple</td>
+                    <td>2022</td>
+                </tr>
+                <tr>
+                    <td>Software Outsorcing Services</td>
+                    <td>Backend</td>
+                    <td>2022</td>
+                </tr>
+            </table>
+    </div>  
+        <div class="card bg-green">
+        <h2>Course</h2>
+        <ul class="link-list">
+
+            <li>
+                <a href="https://developer.mozilla.org/ru/docs/Web/HTML/Element/ol">Курсы Full</a>
+            </li>
+            <li>
+                <a href="https://www.youtube.com/watch?v=SpCUuyZZTp8">Пройти пробный курс</a> </a>
+
+            </li>
+        </ul>
+    </div>      
+        <div class="card bg-red">
+            <h2>Chanels</h2>
+            <ol class="list">
+                <li>Facebook</li>
+                <li>Telegram chanel </li>
+                <li>Telegram PRO</li>
+            </ol>
+            </div>
+            <div class="contact">
+
+        <h2>Связаться со мной</h2>
+
+        <form action="/">
+            <div class="row">
+                <div class="form-group">
+                    <label for="name">Ваше имя:</label>
+                    <input type="text" id="name"
+                    placeholder="Введите текст" >
+                </div>
+
+                <div class="form-group">
+                    <label for="email">Ваш email:</label>
+                    <input type="email" id="name"
+                    placeholder="Введите email" >
+                </div>
+            </div>
+
+            <div class="form-group">
+                <label for="text">Ваше сообщение:</label>
+                <textarea id="text" rows="2" cols="25"></textarea>
+            </div>
+
+            <input class="btn" type="submit" value="Отправить даннные">
+        </form>
+        </div>
+
+        <div class="box-model">
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+        </div>
+        <div class="position">
+            <div class="box"></div>
+        </div>
+    </div>
+
+    <div style="margin-bottom: 500px;" ></div>
+                        
 </body>
 </html>
